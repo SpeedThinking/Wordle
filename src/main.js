@@ -132,7 +132,7 @@ function createKeyboard() {
 let isPanelDisplayed = false;
 function settings() {
   let settingsContainer = document.getElementById('options');
-  let settingsButton = createOptionButton('/assets/settings.svg', 'settings',);
+  let settingsButton = createOptionButton('./assets/settings.svg', 'settings',);
   settingsContainer.appendChild(settingsButton)
 
   function togglePanel() { 
@@ -165,7 +165,7 @@ function createOptionsPanel(panelClass, title , panelContent) {
   const panelBar = document.createElement('div');
   panelBar.classList.add('panel-bar');
 
-  const closeButton = createOptionButton('/assets/close.svg', 'close');
+  const closeButton = createOptionButton('./assets/close.svg', 'close');
   panelBar.appendChild(closeButton)
 
   const settingsText = document.createElement('span');
