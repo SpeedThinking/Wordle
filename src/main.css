@@ -1,0 +1,149 @@
+body {
+    background-color: hsl(180, 50%, 100%);
+    color: white;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 30px;
+    max-width: 650px;
+    margin: 0 auto; 
+    padding: 0px; 
+}
+.space {
+    height: 70px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+#title {
+    font-family: 'Jua', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0.5em 0;
+    font-weight: 100;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    transition: color 0.9s ease-in-out;
+}
+/* Table styling */
+.table {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.cell {
+    align-items: center;
+    border: 3px solid #dee1e9;
+    font-size: 28px;
+    font-weight: 700;
+    height: 56px;
+    margin: 3px;
+    text-transform: uppercase;
+    width: 56px;
+    border-radius: 5px;
+    color: #393e4c;
+    background: #fbfcff;
+    display: flex;
+    justify-content: center;
+    --webkit-user-select:none;
+    user-select:none;
+    box-shadow:2 2 5px #ffffff;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 0 6px 5px rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.2) ;
+    text-shadow: -1px -1px 0 rgba(32, 59, 103, 0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    gap: 4px;
+}
+
+.cell-correct {
+    align-items: center;
+    border: 3px solid #79b851;
+    font-size: 28px;
+    font-weight: 700;
+    height: 56px;
+    margin: 3px;
+    text-transform: uppercase;
+    width: 56px;
+    border-radius: 5px;
+    color: white;
+    background: #79b851;
+    display: flex;
+    justify-content: center;
+    --webkit-user-select:none;
+    user-select:none;
+    box-shadow:2 2 5px #ffffff;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 0 6px 5px rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.2) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    gap: 6px;
+}
+.cell-incorrect {
+    align-items: center;
+    border: 3px solid #a4aec4;
+    font-size: 28px;
+    font-weight: 700;
+    height: 56px;
+    margin: 3px;
+    text-transform: uppercase;
+    width: 56px;
+    border-radius: 5px;
+    color: white;
+    background: #a4aec4;
+    display: flex;
+    justify-content: center;
+    --webkit-user-select:none;
+    user-select:none;
+    box-shadow:2 2 5px #ffffff;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: 0 0 6px 5px rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.2) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    gap: 6px;
+}
+
+.cell-position-incorrect {
+align-items: center;
+border: 3px solid #f3c237;
+font-size: 28px;
+font-weight: 700;
+height: 56px;
+margin: 3px;
+text-transform: uppercase;
+width: 56px;
+border-radius: 5px;
+color: white;
+background: #f3c237;
+display: flex;
+justify-content: center;
+--webkit-user-select:none;
+user-select:none;
+box-shadow:2 2 5px #ffffff;
+-o-text-overflow: clip;
+text-overflow: clip;
+-webkit-box-shadow: 0 0 6px 5px rgba(0,0,0,0.2) ;
+box-shadow: 0 0 6px 5px rgba(255, 255, 255, 0.2) ;
+-webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);-moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+gap: 6px;
+    
+}
