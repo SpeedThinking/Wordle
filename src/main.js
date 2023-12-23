@@ -102,7 +102,7 @@ function rowWithSpecialKeys() {
 const row = document.createElement('div');
 row.classList.add('row-3');
 
-row.appendChild(createSpecialKeys('/assets/backspace.svg', 'backspace', 'key-3-backspace'));
+row.appendChild(createSpecialKeys('./assets/backspace.svg', 'backspace', 'key-3-backspace'));
 
   for(const letter of ABC[2]) {
     let key = document.createElement('div');
@@ -110,7 +110,7 @@ row.appendChild(createSpecialKeys('/assets/backspace.svg', 'backspace', 'key-3-b
     key.innerHTML = letter;
     row.appendChild(key);
   }
-  row.appendChild(createSpecialKeys('/assets/enter.svg', 'enter', 'key-3-enter'));
+  row.appendChild(createSpecialKeys('./assets/enter.svg', 'enter', 'key-3-enter'));
 
   return row
 }
